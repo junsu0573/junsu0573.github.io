@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c862a772.css",
-    "main.js": "/static/js/main.71ff4dab.js",
+    "main.css": "/static/css/main.2434bd6a.css",
+    "main.js": "/static/js/main.24d7c497.js",
+    "static/media/yein.png": "/static/media/yein.dfc0606adc4099a6d37a.png",
+    "static/media/DungGeunMo.woff2": "/static/media/DungGeunMo.cf30fbf9a92a637db74f.woff2",
     "index.html": "/index.html",
-    "main.c862a772.css.map": "/static/css/main.c862a772.css.map",
-    "main.71ff4dab.js.map": "/static/js/main.71ff4dab.js.map"
+    "main.2434bd6a.css.map": "/static/css/main.2434bd6a.css.map",
+    "main.24d7c497.js.map": "/static/js/main.24d7c497.js.map"
   },
   "entrypoints": [
-    "static/css/main.c862a772.css",
-    "static/js/main.71ff4dab.js"
+    "static/css/main.2434bd6a.css",
+    "static/js/main.24d7c497.js"
   ]
 }
