@@ -1,13 +1,13 @@
 import { Routes, Route } from "react-router-dom";
-import MyPortfolio from "./MyPortfolio";
-import PokeDict from "./PokeDictionary/PokeDict";
+import Home from "./screens/Home";
+import Posts from "./screens/Posts";
 
 function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<MyPortfolio />} />
-        <Route path="/poke" element={<PokeDict />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/posts" element={<Posts />}></Route>
       </Routes>
     </div>
   );
