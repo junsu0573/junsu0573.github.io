@@ -3,16 +3,18 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className={styles.Container}>
-      <div className={styles.Logo}>BLOG LOGO</div>
+      <Link to="/" className={styles.Logo}>
+        BLOG LOGO
+      </Link>
       <div className={styles.Nav}>
-        <Link to="/posts">
-          <div className={styles.Item}>POSTS</div>
+        <Link to="/posts" className={styles.Item}>
+          POSTS
         </Link>
-        <Link to="">
-          <div className={styles.Item}>PROJECTS</div>
+        <Link to="/projects" className={styles.Item}>
+          PROJECTS
         </Link>
-        <Link to="">
-          <div className={styles.Item}>ABOUT</div>
+        <Link to="/about" className={styles.Item}>
+          ABOUT
         </Link>
       </div>
     </div>
