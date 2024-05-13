@@ -6,17 +6,17 @@ function Header() {
       <Link to="/" className={styles.Logo}>
         BLOG LOGO
       </Link>
-      <div className={styles.Nav}>
-        <Link to="/posts" className={styles.Item}>
-          POSTS
+      <ul className={styles.Nav}>
+        <Link to="/posts">
+          <li className={styles.Item}>POSTS</li>
         </Link>
-        <Link to="/projects" className={styles.Item}>
-          PROJECTS
+        <Link to="/projects">
+          <li className={styles.Item}>PROJECTS</li>
         </Link>
-        <Link to="/about" className={styles.Item}>
-          ABOUT
+        <Link to="/about">
+          <li className={styles.Item}>ABOUT</li>
         </Link>
-      </div>
+      </ul>
     </div>
   );
 }

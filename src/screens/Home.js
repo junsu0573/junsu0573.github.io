@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>
       <Header />
-      <MainBanner />
+      <MainBanner background={"videos/simpsons_wallpaper.mp4"} />
       <Categories />
     </div>
   );

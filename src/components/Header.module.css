@@ -1,30 +1,28 @@
 .Container {
   display: flex;
+  justify-content: space-between;
   width: 100%;
   height: 50px;
-  background-color: transparent;
   align-items: center;
-  padding-top: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px 30px;
 }
 
 .Logo {
-  flex: 1;
-  text-decoration-line: none;
-  color: inherit;
+  color: azure;
+  text-decoration: none;
 }
 
 .Nav {
   display: flex;
 }
-
 .Item {
+  font-size: 16px;
   margin-left: 25px;
-  text-decoration-line: none;
+  text-decoration: none;
   color: #c7c6c4;
 }
 
 .Item:hover {
+  transform: scale(1.2);
   color: white;
 }

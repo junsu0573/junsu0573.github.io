@@ -1,0 +1,45 @@
+.Container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+.Box {
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border: 2px solid grey;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+}
+
+.Logo {
+  height: 90%;
+  object-fit: cover;
+}
+
+.Tip {
+  position: absolute;
+  bottom: -15px;
+  visibility: hidden;
+  color: white;
+  font-size: 15px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.Container:hover .Tip {
+  visibility: visible;
+}
+
+.Box:hover {
+  transform: scale(1.2);
+}
